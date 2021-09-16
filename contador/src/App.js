@@ -1,12 +1,15 @@
 import React from "react";
-import './App.css';
+import { ContadorEstado } from "./Components/ContadorEstado/ContadorEstado";
+import {Contador} from "./Components/Contador.js/Contador"
+export default class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Contador/>
 
-const App = () => {
-  return (
-    <div>
-oi
-    </div>
-  );
-}
+      </div>
+    );
+   }
+  }
+  
 
-export default App;
