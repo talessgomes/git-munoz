@@ -1,11 +1,11 @@
 import styled from "styled-components"
 
 export const HomeContainter = styled.div`
+   width: 100%;
+   height: 100vh;
    display: flex;
    align-items: center;
    text-align: center;
-   width: 100%;
-   height: 100vh;
    background-color: #6086C5;
 `
 
