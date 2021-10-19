@@ -1,13 +1,13 @@
-export const goToHome = (history) => {
+export const goToMain = (history) => {
     history.push("/")
+}
+
+export const goToHome = (history) => {
+    history.push("/Página-inicial")
 }
 
 export const goToAboutMe = (history) => {
     history.push("/sobre-mim")
-}
-
-export const goToMain = (history) => {
-    history.push("/educacao")
 }
 
 export const goToProjetcs = (history) => {

@@ -3,6 +3,7 @@ import { PerfilImage, HomeContainter,TextContainer, IconeContainer } from "./ind
 import imagem from "../../img/tales.jpg"
 import { Typography } from "@material-ui/core";
 import { GitHub, WhatsApp, LinkedIn } from "@material-ui/icons";
+import { Header } from "../../Components/Header/Header";
 
 
 export const Home = () => {

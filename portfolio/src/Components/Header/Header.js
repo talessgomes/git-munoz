@@ -1,41 +1,39 @@
 import React from "react";
-import {StyledToolbar} from "./index"
-import Button from '@material-ui/core/Button';
-import { AppBar } from "@material-ui/core";
-import { goToAboutMe, goToContact, goToHome, goToProjetcs } from "../../Route/Coordinator";
-import { useHistory } from "react-router";
+import {HeaderContainer,
+  SpanContainer
+} from "./index"
+import { goToAboutMe, goToContact, goToMain, goToProjetcs } from "../../Route/Coordinator";
+import { useHistory} from "react-router";
 
 export const  Header = () => {
   const history = useHistory()
   return (
-    <AppBar>
-      <StyledToolbar color={"third"} position="static">
-      <h1 onClick={() => goToHome(history)}>Home</h1>
+    <HeaderContainer>
+      <h1 onClick={() => goToMain(history)}>Home</h1>
       <div>
-        <Button
+        <SpanContainer
         onClick={() => goToAboutMe(history)}
          variant="text"
           color="inherit"
           >
             Quem sou eu
-            </Button>
-            <Button
+            </SpanContainer>
+            <SpanContainer
             onClick={() => goToProjetcs(history)}
          variant="text"
          color="inherit"
           >
             Projetos
-            </Button>
-            <Button
+            </SpanContainer>
+            <SpanContainer
             onClick={() => goToContact(history)}
          variant="text"
          color="inherit"
           >
             Contato
-            </Button>
+            </SpanContainer>
       </div>
-    </StyledToolbar>
-    </AppBar>
+    </HeaderContainer>
   );
 }
 

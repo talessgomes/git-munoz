@@ -10,18 +10,21 @@ export const HomeContainter = styled.div`
 `
 
 export const PerfilImage = styled.img`
-   height: 521px;
-   max-width: 498px;
-   margin: 50px 32px 0;
+   height: 80%;
+   min-width: 20%;
+   margin-left: 5%;
+   margin-bottom: 5%;
+   position: relative;
    border: 1px solid black;
 `
 
 export const TextContainer = styled.div`
    display: flex;
    flex-direction: column;
+   position: relative;
    text-align: center;
    align-items: flex-start;
-   margin-left: 70px;
+   margin-left: 2%;
    width: 50vw;
 `
 
@@ -29,10 +32,10 @@ export const IconeContainer = styled.div`
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   align-items: flex-end;
+   align-items: center;
    position: relative;
    height: 35vh;
-   width: 5vw;
+   width: 10%;
    a{
     text-decoration:none;
     color: ${('#1d1d1d')};
