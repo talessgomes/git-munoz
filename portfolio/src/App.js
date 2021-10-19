@@ -7,12 +7,12 @@ import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <div>
       <BrowserRouter>
-      <Router/>
       <Header/>
+      <Router/>
       </BrowserRouter>
-    </ThemeProvider>
+    </div>
   );
 }
 

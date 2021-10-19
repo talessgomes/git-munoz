@@ -1,20 +1,19 @@
 import styled from "styled-components";
-import Toolbar from '@material-ui/core/Toolbar'
+import Button from '@material-ui/core/Button';
 
 export const HeaderContainer = styled.div`
    display: flex;
    align-items: center;
    justify-content: space-between;
    flex-direction: row;
-   padding: 14px;
-   background-color: "primary";
-   height: 60px;
+   position: sticky;
+   padding: 10px;
+   background-color: #112A80;
+   height: 10vh;
 `
 
 
-export const StyledToolbar = styled(Toolbar)`
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: sticky;
+export const SpanContainer = styled.span`
+   color: white;
+   margin-left: 4vw;
 `
