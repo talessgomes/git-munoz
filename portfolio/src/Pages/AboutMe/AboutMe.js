@@ -1,12 +1,20 @@
 import React from "react";
-import cv from "../../img/_Currículo.pdf"
+import { AboutMeContainer, TextAboutMe, LinguageContainer } from "./index"
+
 export const AboutMe = () => {
   return (
-    <div>
-      <h1>Sobre Mim</h1>
-      <p>Sou um Desenvolvedor Front-end, estou a procura de uma oportunidade</p>
-      <button src={cv} target="_blank"><h2>CV</h2></button>
-    </div>
+    <AboutMeContainer>
+      <TextAboutMe>
+        <h1>Sobre Mim</h1>
+      <p>Sou um Desenvolvedor Front-end, estou cursando Análise e Desenvolvimento, estou procurando uma oportunidade de emprego.</p>
+      <LinguageContainer>
+          <p>|HTML</p>
+          <p>|CSS</p>
+          <p>|Javascript</p>
+          <p>|React</p>
+        </LinguageContainer>
+        </TextAboutMe>
+    </AboutMeContainer>
   );
 }
 
