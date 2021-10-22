@@ -3,10 +3,10 @@ import { CardContainer, CardInfo, AddToCardButton } from "./styled";
 
 export class ProductCard extends React.Component {
     render() {
-        const product = this.props.product
+        const product = this.props.product /* declarado variável product que veio de map */
         return (
             <CardContainer>
-             <img src={product.photo}/>
+             <img src={product.photo}/> 
              <CardInfo>
                  <p>{product.name}</p>
                  <p>R${product.price},00</p>

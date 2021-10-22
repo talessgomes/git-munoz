@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div>
-      <EcoommercePage/>
+      <EcoommercePage/>  {/* Componente que recebe a informação do códigos */}
     </div>
   );
 }
