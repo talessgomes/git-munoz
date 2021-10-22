@@ -11,27 +11,27 @@ export const  Header = () => {
     <HeaderContainer>
       <h1 onClick={() => goToMain(history)}>Home</h1>
       <div>
-        <SpanContainer
+        <span
         onClick={() => goToAboutMe(history)}
          variant="text"
           color="inherit"
           >
             Quem sou eu
-            </SpanContainer>
-            <SpanContainer
+            </span>
+            <span
             onClick={() => goToProjetcs(history)}
          variant="text"
          color="inherit"
           >
             Projetos
-            </SpanContainer>
-            <SpanContainer
+            </span>
+            <span
             onClick={() => goToContact(history)}
          variant="text"
          color="inherit"
           >
             Contato
-            </SpanContainer>
+            </span>
       </div>
     </HeaderContainer>
   );

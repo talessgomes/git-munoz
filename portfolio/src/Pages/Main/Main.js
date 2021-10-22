@@ -5,6 +5,7 @@ import { Projects } from "../Projects/Projects";
 import { Contact } from "../Contact/Contact";
 import {Footer} from "../../Components/Footer/Footer"
 
+
 export const Main = () => {
   return (
     <div>

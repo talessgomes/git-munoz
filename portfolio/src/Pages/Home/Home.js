@@ -17,8 +17,8 @@ export const Home = () => {
       </TextContainer>
       <IconeContainer>
           <a href="https://github.com/talessgomes" target="_blank"><GitHub style={{fontSize: 30}}/></a>
-          <a href="https://github.com/talessgomes" target="_blank"><WhatsApp style={{fontSize: 30}}/></a>
-          <a href="https://github.com/talessgomes" target="_blank"><LinkedIn style={{fontSize: 30}}/></a>
+          <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5551996491450" target="_blank"><WhatsApp style={{fontSize: 30}}/></a>
+          <a href="https://www.linkedin.com/in/talessgomes/" target="_blank"><LinkedIn style={{fontSize: 30}}/></a>
       </IconeContainer>
     </HomeContainter>
   );
