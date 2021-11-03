@@ -1,9 +1,11 @@
 import React from "react";
 
-function AdressPage () {
+const AdressPage = () => {
+  return (
   <div>
     AdressPage
   </div>
+  )
 }
 
 export default AdressPage;
