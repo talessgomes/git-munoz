@@ -1,9 +1,11 @@
 import React from "react";
 
-function RequestPage () {
+const RequestPage = () => {
+  return (
   <div>
     RequestPage
   </div>
+  )
 }
 
 export default RequestPage;

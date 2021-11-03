@@ -1,9 +1,11 @@
 import React from "react";
 
-function ConfirmPage () {
+const ConfirmPage = () => {
+  return (
   <div>
     ConfirmPage
   </div>
+  )
 }
 
 export default ConfirmPage;

@@ -1,9 +1,11 @@
 import React from "react";
 
-function FeedPage () {
+const FeedPage = () => {
+  return(
   <div>
     FeedPage
   </div>
+  )
 }
 
 export default FeedPage;
