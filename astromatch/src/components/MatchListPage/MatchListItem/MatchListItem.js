@@ -1,12 +1,12 @@
 import React from "react"
-import { Avatar, ListItemContaier } from "./styled"
+import { Avatar, ListItemContaier, ListText } from "./styled"
 
 function MatchListItem(props) {
   const profile = props.profile
   return (
     <ListItemContaier>
       <Avatar src={profile.photo}/>
-      <p>{profile.name}</p>
+      <ListText>{profile.name}</ListText>
     </ListItemContaier>
   )
 }
