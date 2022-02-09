@@ -16,3 +16,7 @@ export const Avatar = styled.img`
    height: 30px;
    width: 30px;
 `
+
+export const ListText = styled.p `
+   user-select: none;
+`
