@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import ChooseButons from "./ChooseButons/ChooseButons"
 import ProfileCard from "./ProfileCard/ProfileCard"
+import {Loader} from '../loader/index';
 import axios from "axios"
 
 function ChooseProfilePage() {
@@ -41,7 +42,7 @@ function ChooseProfilePage() {
       (<>
         <ProfileCard profile={profileToChoose}/>
       <ChooseButons onClickNo={onClickNo} onClickYes={onClickYes}/>
-      </>) : <p>Carregando...</p>
+      </>) : <Loader>Carregando...</Loader>
       }
     </div>
   )
