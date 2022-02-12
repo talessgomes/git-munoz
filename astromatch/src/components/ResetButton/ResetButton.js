@@ -1,5 +1,6 @@
 import axios from "axios"
 import React from "react"
+import {ResetButtonStyled, ResetButtonContainer} from "./styled"
 
 function ResetButton() {
 
@@ -10,9 +11,9 @@ function ResetButton() {
     })
   }
     return (
-    <div>
-      <button onClick={onClickReset}>Resetar Curtidas e Matches</button>
-    </div>
+    <ResetButtonContainer>
+      <ResetButtonStyled onClick={onClickReset}>Resetar Curtidas e Matches</ResetButtonStyled>
+    </ResetButtonContainer>
   )
 }
 

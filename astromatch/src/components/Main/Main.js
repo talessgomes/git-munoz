@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import AppBar from "../AppBar/AppBar"
 import ChooseProfilePage from "../ChooseProfilePage/ChooseProfilePage"
 import MatchListPage from "../MatchListPage/MatchListPage"
+import ResetButton from "../ResetButton/ResetButton"
 import { MainContainer } from "./styled"
 
 

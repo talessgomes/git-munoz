@@ -12,3 +12,8 @@ export const MainContainer = styled.div`
    display: flex;
    flex-direction: column;
 `
+export const ResetButtonContainer = styled.div `
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 0px 0px 0px;
+`

@@ -6,8 +6,8 @@ export const ProfileCardContainer = styled.div`
 `
 
 export const ProfilePicture = styled.img`
-   width: 100%;
-   height: 300px;
+   width: 99.5%;
+   height: 326px;
    display: block;
    border: 1px solid black;
    z-index: 1;
