@@ -22,9 +22,19 @@ export const Logo = styled.img`
 export const ButtonBar = styled.button `
    cursor: pointer;
    transition: 0.2;
-
+   width: 80px;
+   height: 25px;
+   border-radius: 20px;
+   font-size: 15px;
+   border: 1px solid #4AA397;
    :hover {
       transform: scale(0.9);
+   }
+
+   :hover {
+      background-color: #4AA397;
+      transform: scale(0.9);
+      color: white;
    }
    
 `
@@ -32,8 +42,14 @@ export const ButtonBar = styled.button `
 export const ButtonList = styled.button `
    cursor: pointer;
    transition: 0.2;
-
+   width: 80px;
+   height: 25px;
+   border-radius: 20px;
+   font-size: 15px;
+   border: 1px solid purple;
    :hover {
+      background-color: purple ;
+      color: white;
       transform: scale(0.9);
    }
    
