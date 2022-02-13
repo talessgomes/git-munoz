@@ -9,7 +9,7 @@ export const ProjectsContainer = styled.div`
    background-color: #DCD4B9;
 `
 
-export const ListProject01 = styled.div`
+export const ListProjects = styled.div`
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -35,8 +35,7 @@ export const ButtonProject = styled.button`
       padding:1vh;
       margin-top:1vw;
       background-color: #6086C5;
-      border: none;
-      border: 1px solid black;
+      border: solid black 1px;
       outline: none;
       font-size: 12pt;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -53,5 +52,7 @@ export const ButtonProject = styled.button`
       }
       :hover{
          background-color: #A8090C;
+         transform: scale(0.9);
       }
 `
+
