@@ -1,5 +1,10 @@
 import React from "react";
-import { AboutMeContainer, TextAboutMe, LinguageContainer } from "./index"
+import { AboutMeContainer,
+   TextAboutMe, 
+   LinguageContainer, 
+   ButtonCurriculum,
+   ButtonContainer} from "./index";
+import Curriculo from "../../img/curriculo.png";
 
 export const AboutMe = () => {
   return (
@@ -13,7 +18,10 @@ export const AboutMe = () => {
           <p>|Javascript</p>
           <p>|React</p>
         </LinguageContainer>
-        </TextAboutMe>
+        <div>
+        <a href={Curriculo} download="curriculo.png"><ButtonCurriculum>Currículo</ButtonCurriculum></a>
+        </div>
+        </TextAboutMe>  
     </AboutMeContainer>
   );
 }
