@@ -7,7 +7,7 @@ Ele tem um botão que leva para a lista de pessoas que receberam o sim, também 
 
 Contra: No momento ainda não foi colocar um design mobile.
 
-Link: gusty-change.surge.sh
+Link: https://gusty-change.surge.sh/
 
 Imagem do programa:
 
