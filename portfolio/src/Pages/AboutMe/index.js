@@ -6,6 +6,7 @@ export const AboutMeContainer = styled.div`
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-direction: column;
    background-color: #A8090C;
 `
 
@@ -39,4 +40,35 @@ export const LinguageContainer = styled.div`
    justify-content: center;
    align-items: center;
    gap: 8px;
+`
+
+
+export const ButtonCurriculum = styled.button `
+      width: 100px;
+      height: fit-content;
+      min-height:fit-content;
+      min-width:fit-content;
+      padding:1vh;
+      margin-top:1vw;
+      background-color: #6086C5;
+      border: solid black 1px;
+      outline: none;
+      font-size: 18pt;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      border-radius: 8px;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s;
+      margin-bottom: 10px;
+      a{
+         color: white;
+         text-decoration: none;
+         width: 100%;
+      }
+      :hover{
+         background-color: #A8090C;
+         transform: scale(0.9);
+         color: white;
+      }
 `

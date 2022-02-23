@@ -1,5 +1,5 @@
-Nome do projeto: Astromatch.
 
+ astromatch04
 Infromações: Através da API, é possível pegar dados e renderizar dados, como imagem do usuário, nome, biográfia.
 
 Funcionalidades: O astromatch tem 4 botoões, neles é possível escolher quem você gostaria de dar sim ou não, após feito a função, um novo perfil aparece.
@@ -7,7 +7,7 @@ Ele tem um botão que leva para a lista de pessoas que receberam o sim, também 
 
 Contra: No momento ainda não foi colocar um design mobile.
 
-Link: https://gusty-change.surge.sh/
+Link: gusty-change.surge.sh/
 
 Imagem do programa:
 
