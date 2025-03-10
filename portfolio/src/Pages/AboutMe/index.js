@@ -1,14 +1,25 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const AboutMeContainer = styled.div`
-   width: 100%;
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   background-color: #A8090C;
-`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #A8909C;
+
+ /* Para tablets */
+ @media (max-width: 768px) {
+   
+}
+/* Para celulares */
+   @media (max-width: 480px) {
+      width: 100%;
+}
+
+`;
+
 
 export const TextAboutMe = styled.div`
    display: flex;
@@ -33,6 +44,18 @@ p{
   width: 80%;
 }
 
+/* Para tablets */
+@media (max-width: 768px) {
+   
+}
+/* Para celulares */
+   @media (max-width: 480px) {
+      p {
+         width: 100%;
+      }
+}
+
+
 `
 
 export const LinguageContainer = styled.div`
@@ -40,6 +63,15 @@ export const LinguageContainer = styled.div`
    justify-content: center;
    align-items: center;
    gap: 8px;
+
+   /* Para tablets */
+   @media (max-width: 768px) {
+   
+}
+/* Para celulares */
+   @media (max-width: 480px) {
+}
+
 `
 
 
@@ -71,4 +103,13 @@ export const ButtonCurriculum = styled.button `
          transform: scale(0.9);
          color: white;
       }
+
+      /* Para tablets */
+   @media (max-width: 768px) {
+   
+}
+/* Para celulares */
+   @media (max-width: 480px) {
+}
+
 `
